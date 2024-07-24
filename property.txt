@@ -1,0 +1,8 @@
+line height -> 
+!important -> imp element
+className:: <- sudo element
+className:after <- sudo class 
+*******************
+    Inline element does not support height and width
+******************
+transition 
