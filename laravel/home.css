@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body,
+input,
+button,
+a {
+    font-family: "Poppins", serif;
+}
+
+body {      
+    background: white;
+    background-image: linear-gradient(
+    90deg,
+    hsl(5deg 85% 95%) 0%,
+    hsl(16deg 92% 95%) 0%,
+    hsl(26deg 91% 95%) 1%,
+    hsl(38deg 90% 96%) 3%,
+    hsl(47deg 100% 96%) 6%,
+    hsl(60deg 100% 97%) 11%,
+    hsl(60deg 100% 97%) 17%,
+    hsl(60deg 100% 98%) 26%,
+    hsl(60deg 100% 99%) 37%,
+    hsl(60deg 100% 99%) 53%,
+    hsl(0deg 0% 100%) 85%
+    );
+}
+
+.bg-color-red{ 
+    background-color: #f6352d;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px 0px 24px;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    list-style: none;
+}
+
+.main-menu-item{
+    margin: 0px 12px;
+    list-style: none;
+}
+
+.logo{
+    padding-left: 140px;
+    padding-top: 24px;
+    padding-bottom: 31px;
+
+}
+.logo-text{
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-bottom: 11px;
+
+}
+
+.reference-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 12px;
+    list-style: none;
+    align-items: center;
+    padding-right: 140px;
+}
+
+.reference-menu-item{
+    margin: 0px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center
+}
+
+.brand > img{
+    margin-right: 12px;
+}
+
+.btn{
+    background-color: white;
+}
+
+.btn > a{
+    color: #f6352d;
+    text-decoration: none;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+}
+
+.btn > a{
+    border-color:#f6352d ;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-get-start > a{
+    background-color: #f6352d;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.btn > a,
+.btn-get-start > a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+
+.hero-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+
+}
+.hero-text {
+    text-align: center;
+}
+.hero-black-text{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-justify: center;
+    padding-bottom:-10px;
+    padding-bottom: 0%;
+}
+
+.hero-red-text{
+    font-size: 70px;
+    font-weight: bold;
+    color: #f6352d;
+    text-align: center;
+    text-justify: center;
+    padding-top: -10px;
+    padding-top: 0%;
+}
+.hero-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    text-justify: center;
+    /* padding: 10px; */
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: top 2px;
+}
+
+.buttons li {
+    margin: 0 10px;
+}
+/*
+TODO:
+    css bg property
+        bg with liner grad
+        bg img with gradient
+        background-color
+        background-image
+        background-repeat
+        background-attachment
+        background-position
+        backdrop filter
+
+    css pst property
+        relative
+        absolute
+        fixed
+        sticky
+        static
+
+        top bottom left right
+        z index
+*/
